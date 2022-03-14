@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;900&display=swap");
+
+nav {
+    background-color: rgb(41, 5, 5);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif, 'Open Sans';
+    font-weight: bold;
+    border-radius: 10px;
+    height: 70px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+.gameContainer {
+    /* background-color: rgb(112, 72, 185); */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family:  sans-serif, 'Open Sans';
+    margin: 20px;
+}
+
+.box {
+    border: 3px solid rgb(76, 4, 98); 
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:hover{
+    background-color: rgb(251, 238, 251);
+}
+
+.gameInfo {
+    padding: 0 20px;
+    font-family: sans-serif;
+}
+
+.info {
+    margin: 2vw 0;
+}
+
+.imgbox img{
+    width: 0;
+}
+
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+
+ 
